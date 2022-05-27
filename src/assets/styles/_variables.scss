@@ -1,6 +1,12 @@
-$blue: rgb(2,2,2);
-$space: 1000px;
+// https://hookagency.com/blog/website-color-schemes/
+// Theme Colors:
+$Light_Lime: #abd699;
+$Fresh_Lemon: #ffe26a;
+$Teal: #75c9b7;
+$Mint: #c7ddcc;
+$Navy: #16123f;
 
-.body{
-    height: 10px;
+body{
+    height: 1000px;
+    background-color: $Light_Lime !important;
 }

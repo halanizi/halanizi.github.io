@@ -1,5 +1,8 @@
 <template>
-  <header-bar/>
+  <header-bar />
 </template>
 
-<script></script>
+<!-- <script></script> -->
+<style lang="scss">
+  @import '@/assets/styles/_variables.scss';
+</style>
