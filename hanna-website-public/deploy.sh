@@ -13,6 +13,6 @@ git add -A
 
 git commit -m "deploy"
 
-git push -f git@github.com:halanizi/hanna_website_public.git main:gh-pages
+git push -f git@github.com:halanizi/halanizi.github.io main:gh-pages
 
 cd -
