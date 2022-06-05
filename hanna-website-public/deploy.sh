@@ -3,7 +3,7 @@
 set -e
 # build
 
-yarn run build
+npm run build
 
 cd dist
 
@@ -13,6 +13,6 @@ git add -A
 
 git commit -m "deploy"
 
-git push -f git@github.com:halanizi/halanizi.github.io main:gh-pages
+git push -f git@github.com:halanizi/halanizi.github.io master:gh-pages
 
 cd -
