@@ -6,22 +6,22 @@
       </a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" @click="goToHome()">Home</a>
         </li>
         <li class="nav-item">
           <!-- About Me Vue Component Triggered -->
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" @click="goToAbout()">About</a>
         </li>
         <li class="nav-item">
           <!-- Projects, Work, etc -->
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" @click="goToWork()">Work</a>
         </li>
         <li class="nav-item">
           <!-- Resume Vue Component Triggered -->
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link" @click="goToResume()">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" @click="goToContact()">Contact</a>
         </li>
       </ul>
       
