@@ -1,12 +1,39 @@
 // https://hookagency.com/blog/website-color-schemes/
 // Theme Colors:
-$Light_Lime: #abd699;
-$Fresh_Lemon: #ffe26a;
-$Teal: #75c9b7;
-$Mint: #c7ddcc;
-$Navy: #16123f;
+// $Light_Lime: #abd699;
+// $Fresh_Lemon: #ffe26a;
+// $Teal: #75c9b7;
+// $Mint: #c7ddcc;
+// $Navy: #16123f;
+
+$Medium_Teal: #60BFC1;
+$Turquoise: #BADFD7;
+$Light_Pink: #F7E3DB;
+$Medium_Pink: #FDB7B9;
+$Dark_Pink: #C17779;
+
+
+// @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// @font-face{
+//     font-family: 'League Spartan', sans-serif;
+//     src:url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "Courgette";
+    src:url('https://fonts.googleapis.com/css2?family=Courgette&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+}
+
+
+*{
+    // font-family: "League Spartan";
+    font-family: "Courgette" !important;
+}
 
 body{
-    height: 1000px;
-    background-color: $Light_Lime !important;
+    min-height: 1000px;
+    background-color: $Light_Pink !important;
 }
+
