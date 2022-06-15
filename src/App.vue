@@ -1,8 +1,6 @@
 <template>
   <header-bar />
-  <body>
-    Some stuff goes here
-  </body>
+  <home-component />
 </template>
 
 <!-- <script></script> -->

@@ -1,6 +1,8 @@
 .HeaderBar__container{
+    z-index: 1000;
     top:0px;
-    position: sticky;
+    position: fixed;
+    width:100%;
     & a{
         color: $Dark_Pink;
         text-decoration: $Medium_Teal;
@@ -9,9 +11,8 @@
 .HeaderBar__navbackgrnd{
     background: $Turquoise;
 }
-.HeaderBar__navbarbrand{
-    font-family: "League Spartan";
-    text-transform: lowercase;
-    font-style: bold;
-    font-size: x-large;
+
+.HeaderBar__logo{
+    height:60px;
+    // width: 10px;
 }
