@@ -1,17 +1,13 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
 .HomeComponent__container{
-    margin-top:200px;
-    // padding: 0px 100px 0px 100px;
-    // max-width: 500px !important;
+    margin-top:150px;
 }
 .HomeComponent__introBox{
     max-width: 500px;
 }
 
-
 .HomeComponent__introImg{
-    // border-radius: 50%;
-    // display:inline;
-    // margin:0 auto;
     height:80% !important;
-    // width: auto;
 }

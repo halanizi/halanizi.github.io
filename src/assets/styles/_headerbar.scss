@@ -1,3 +1,7 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+
 .HeaderBar__container{
     z-index: 1000;
     top:0px;
@@ -6,7 +10,32 @@
     & a{
         color: $Dark_Pink;
         text-decoration: $Medium_Teal;
-    }  
+    } 
+ 
+    @include media-breakpoint-down(md){
+        .navbar-brand{
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .navbar-nav{
+            flex-direction: row;
+            margin-left:auto;
+            margin-right:auto;
+            align-items: center;
+            .nav-item{
+                padding-left:10px;
+                text-align: center;
+            }
+            
+        }
+    }
+    // @include media-breakpoint-down(sm){
+    //     navbar-nav{
+    //         margin-left:auto;
+    //         margin-right:auto;
+    //     }
+    // }
+    
 }
 .HeaderBar__navbackgrnd{
     background: $Turquoise;

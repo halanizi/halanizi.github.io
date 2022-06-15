@@ -6,6 +6,7 @@
     "serve": "vue-cli-service lint; vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "prod": "vue-cli-service serve --mode production",
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
