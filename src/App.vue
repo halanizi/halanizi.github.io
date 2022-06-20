@@ -1,6 +1,7 @@
 <template>
   <header-bar />
   <home-component />
+  <about-component />
 </template>
 
 <!-- <script></script> -->

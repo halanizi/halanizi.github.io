@@ -3,6 +3,15 @@
 @import 'bootstrap/scss/_mixins.scss';
 .HomeComponent__container{
     margin-top:150px;
+    .carousel-item{
+        img{
+            margin:auto;
+            height: 250px;
+            width:650px;
+            // overflow: hidden;
+            object-fit: cover;
+        }        
+    }
 }
 .HomeComponent__introBox{
     max-width: 500px;
